@@ -1,0 +1,228 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text-container {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 600px;
+}
+
+.small-text {
+    font-size: 21.33px;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+
+.large-text {
+    margin-top: 0px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+}
+
+.social-button-container {
+    background-color: #E62872;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    gap: 16px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 1; 
+
+    margin-right: 80px;
+}
+
+.dribbble-icon {
+    width: 32px;
+    height: 32px;
+    gap: 0px;
+    opacity: 1; 
+    margin-left: 10px;
+}
+
+.social-button {
+    width: auto;
+    height: 50px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    background-color: #E62872;
+    padding-right:20px;
+}
+
+.social-button a {
+    display: flex; 
+    align-items: center; 
+    font-size: 14px; 
+    background-color: #E62872;;
+    text-decoration: none;
+}
+
+
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+ .card{
+    width: 100%;
+    max-width: 400px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0px 5.33px 32px 0px #00000026;
+
+    background-color: white;
+   
+ }
+
+ .card img{
+    width: 100%;
+    height: auto; 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10.6667px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    object-fit: cover;
+ }
+ .card h1{
+    font-size: 32px; 
+    font-weight: 700; 
+    line-height: 44.8px; 
+    text-align: left; 
+ }
+
+ .card p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  
+
+ }
+
+ .dribbble-link {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 18px;
+}
+
+.vector-icon {
+   max-width: 16px;
+   height: 16px;
+   gap: 0px;
+   border: 2.67px 0px 0px 0px;
+   opacity: 0px; 
+}
+
+/*tablet*/
+@media  only screen and (min-width: 768px) and (max-width: 1023px) {
+    .blog-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .text-container {
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .social-button-container {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+}
+
+/* mobile  */
+@media only screen and (max-width: 767px) {
+    .text-container {
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .small-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .large-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .social-button-container {
+        margin-top: 10px;
+    }
+
+    .dribbble-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .social-button {
+        height: 40px;
+        padding-right: 10px;
+    }
+
+    .social-button a {
+        font-size: 14px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    .card h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .dribbble-link {
+        font-size: 16px;
+    }
+
+    .vector-icon {
+        max-width: 12px;
+        height: 12px;
+    }
+}

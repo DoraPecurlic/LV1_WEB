@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav img {
+    width: 186.67px;
+    height: 40px;
+    flex: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-size: 21.3333px;
+    
+    width: Fixed (1,920px)px;
+    height: Fixed (120px)px;
+
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 42.67px;
+    width: 484px;
+    height: 32px;
+    list-style: none;
+}
+
+
+
+nav button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    width: 120px;
+    height: 50px;
+    background-color: white;
+    border: 1.33333px solid #5E3BEE;
+    border-radius: 5.33333px;
+}
+button:hover {
+    background: #4B2BDD;
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    nav img {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav button {
+        margin-right: 0;
+    }
+
+    nav button,
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    iframe {
+        height: 800px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    nav button,
+    nav ul {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    iframe {
+        height: 600px;
+    }
+    nav button {
+        margin-right: 0;
+        width: 120px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    nav button {
+        margin-right: 0;
+        width: 120px;
+    }
+
+    nav img {
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+  
+
+    nav ul {
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+}
