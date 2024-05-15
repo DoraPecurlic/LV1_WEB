@@ -3,6 +3,7 @@
 
 <hr />
 
+
 ## Opis zadatka
 
 Izrađena je osobna web stranica prema primjeru dizajna početne stranice na desktop rezoluciji. Navedeni dizajn ostvaren je u HTML-u i CSS-u. 
